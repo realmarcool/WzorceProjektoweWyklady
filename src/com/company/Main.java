@@ -4,6 +4,7 @@ import com.company.Dekorator.Dekorator;
 import com.company.Kompozyt.Kompozyt;
 import com.company.LancuchZoobowiazan.LancuchZoobowiazan;
 import com.company.MetodaWytworcza.MetodaWytworcza;
+import com.company.Most.Most;
 import com.company.Obserwator.Obserwator;
 import com.company.Prototyp.JobPlace;
 
@@ -27,6 +28,9 @@ public class Main {
         System.out.println("------------------------------------------------");
         System.out.println("\nWzorzec Kompozyt");
         Kompozyt.run();
+        System.out.println("------------------------------------------------");
+        System.out.println("\nWzorzec Most");
+        Most.run();
         System.out.println("------------------------------------------------");
 
 
