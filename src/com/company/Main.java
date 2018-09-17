@@ -3,6 +3,7 @@ package com.company;
 import com.company.Dekorator.Dekorator;
 import com.company.Kompozyt.Kompozyt;
 import com.company.LancuchZoobowiazan.LancuchZoobowiazan;
+import com.company.Mediator.Mediator;
 import com.company.MetodaWytworcza.MetodaWytworcza;
 import com.company.Most.Most;
 import com.company.Obserwator.Obserwator;
@@ -32,6 +33,10 @@ public class Main {
         System.out.println("\nWzorzec Most");
         Most.run();
         System.out.println("------------------------------------------------");
+        System.out.println("\nWzorzec Mediator");
+        Mediator.run();
+        System.out.println("------------------------------------------------");
+
 
 
 
