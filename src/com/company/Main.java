@@ -1,6 +1,7 @@
 package com.company;
 
 import com.company.Dekorator.Dekorator;
+import com.company.Iterator.IteratorRun;
 import com.company.Kompozyt.Kompozyt;
 import com.company.LancuchZoobowiazan.LancuchZoobowiazan;
 import com.company.Mediator.Mediator;
@@ -35,6 +36,9 @@ public class Main {
         System.out.println("------------------------------------------------");
         System.out.println("\nWzorzec Mediator");
         Mediator.run();
+        System.out.println("------------------------------------------------");
+        System.out.println("\nWzorzec Iterator");
+        IteratorRun.run();
         System.out.println("------------------------------------------------");
 
 
